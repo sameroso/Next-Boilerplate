@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "eslint": "eslint src",
+    "eslint": "eslint src --max-warnings=0",
     "prepare": "husky install"
   },
   "dependencies": {
